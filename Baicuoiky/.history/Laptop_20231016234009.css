@@ -1,0 +1,241 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html {
+    font-size: 18px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#header .header_wrap {
+    background-color: #cd1818;
+    height: 95px;
+    padding: 0px 0px 0px 154px;
+    display: flex;
+}
+
+#header .logo_timkiem {
+    display: flex;
+}
+
+.logo_timkiem .logo {
+    margin-top: 8px;
+    display: block;
+    float: left;
+}
+
+.header_wrap ul {
+    color: #FFF;
+    list-style-type: none;
+    width: 100%;
+    display: flex;
+    margin: 20px 0px -19px 32px;
+    font-size: 14px;
+}
+
+.header_wrap .mainmenu ul li{
+    width: 116px;
+    height: 95px;
+    text-align: center;
+}
+
+.header_wrap .mainmenu i{
+    padding-bottom: 7px;
+}
+
+.header_wrap ul li a {
+    color: #FFF;
+    text-decoration: none;
+}
+
+.search-box {
+    margin-left: 40px;
+    margin-top: 18px;
+    padding-left: 20px;
+    background-color: #FFF;
+    border-radius: 40px;
+}
+
+.search-box input {
+    outline: none;
+    background: none;
+    width: 340px;
+    height: 40px;
+    border: none;
+}
+
+.search-box .search-btn {
+    width: 60px;
+    height: 40px;
+    background-color: #23232B;
+    color: #FFF;
+    border: none;
+    border-radius: 0 40px 40px 0;
+}
+
+#header .navi {
+    height: 43px;
+    background-color: #23232B;
+    padding-left: 126px;
+}
+
+
+
+.navi li {
+    display: inline-block;
+    text-decoration: none;
+    text-transform: uppercase;
+    line-height: 43px;
+    font-size: 14px;
+
+}
+
+.navi li a {
+    text-decoration: none;
+    color: #FFF;
+    padding: 0px 11px 0px 34px;
+}
+
+#content .container_slideshow{
+    width: 1500px;
+    height: 398px;
+    padding: 15px 0px 0px 145px;
+    display: flex;
+}
+
+
+.container_slideshow .thumb{
+    width: 780px;
+    height: 61px;
+    margin-top: -5px;
+}
+
+.container_slideshow .thumb ul{
+    border-left: 1px solid #E7E7E7;
+    border-bottom: 1px solid #E7E7E7;
+    border-right: 1px solid #E7E7E7;
+    text-align: center;
+}
+
+.container_slideshow .thumb li{
+    display: inline-block;
+    text-decoration: none;
+    /* border-left: 1px solid #E7E7E7; */
+    width: 150px;
+    height: 61px;
+
+}
+
+.container_slideshow .thumb li a{
+    text-decoration: none;
+    font-size: 13px;
+    color: #000;
+
+}
+
+.container_slideshow .countdown {
+    margin-left: 15px;
+}
+
+.countdown .bot1 a img{
+    width: 370px;
+}
+
+.countdown .newtop{
+
+}
+
+.newtop .news_cat{
+    width: 370px;
+    height: 38px;
+    background-color: #ebebeb;
+    padding: 10px;
+    font-size: 14px;
+}
+
+.newtop .news_cat p{
+    display: inline;
+    margin-top: 10px;
+}
+
+.newtop .news_list1, .newtop .news_list2{
+    width: 370px;
+    font-size: 14px;
+    float: left;
+    padding-top: 10px;
+    display: flex;
+    margin-left: -3px;
+}
+
+.newtop .news_list a{
+    text-decoration: none;
+    margin-left: 15px;
+}
+
+.newtop .news_list img{
+    width: 83px;
+}
+
+#content .container{
+    margin-top: 25px;
+    margin-left: 144px;
+}
+
+/********************/
+.tieude {
+    color: #000000;
+    font-size: 20px;
+    line-height: 28px;
+    margin-bottom: 8px;
+    display: inline;
+}
+
+.divtieude {
+    
+    margin: 0 auto; 
+    padding: 20px; 
+    margin-bottom: 30px;
+}
+
+.giatien {
+    overflow: hidden;
+    font-size: 26px;
+    font-weight: bold;
+    color: #dc0000;
+    float: left;
+}
+
+.noidung {
+    display: flex;
+    justify-content: space-between;
+}
+
+.divgiua {
+    margin-left: 20px;
+}
+.bk-btn-paynow span {
+    font-size: 12px;
+    display: block;
+}
+.thongtinlaptop {
+    width: 80%;
+    margin: 0 auto; 
+    
+}
+
+table {
+    width: 90%;
+    border-collapse: collapse;
+}
+
+th, td {
+    border: 1px solid black;
+    padding: 8px;
+    text-align: left;
+}
+
+th {
+    background-color: #f2f2f2;
+}
